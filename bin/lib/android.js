@@ -4,7 +4,7 @@ var mappings = require("./mappings"),
 module.exports = function (context) {
 
 	var
-		req = context ? context.requireCordovaModule : require,
+		req = require,
 		Q = require('q'),
 		path = require('path'),
 		ET = require('elementtree'),
