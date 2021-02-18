@@ -1,7 +1,35 @@
 {
-  "name": "@icscorp/cordova-plugin-app-preferences",
-  "version": "0.99.7",
-  "description": "Application preferences plugin and preference pane generator",
+  "_from": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git",
+  "_id": "@icscorp/cordova-plugin-app-preferences@0.99.7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@icscorp/cordova-plugin-app-preferences",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences",
+    "rawSpec": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences",
+    "saveSpec": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git",
+    "fetchSpec": "https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git#d9cb269d6bfe8a9bdb88c934374f05dfe4a66497",
+  "_spec": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences",
+  "_where": "D:\\Mijn documenten\\Workspace\\Work\\Brasschaat\\app",
+  "author": {
+    "name": "Ivan Baktsheev fixed by Joris Bertomeu for ICSCorp"
+  },
+  "bin": {
+    "cordova-app-preferences-generator": "bin/build-app-settings.js"
+  },
+  "bugs": {
+    "url": "https://github.com/apla/me.apla.cordova.app-preferences/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-app-preferences",
     "platforms": [
@@ -15,13 +43,8 @@
       "blackberry10"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git"
-  },
-  "bin": {
-    "cordova-app-preferences-generator": "bin/build-app-settings.js"
-  },
+  "deprecated": false,
+  "description": "Application preferences plugin and preference pane generator",
   "devDependencies": {
     "cordova": "^9.0.0",
     "elementtree": "^0.1.6",
@@ -31,6 +54,7 @@
     "q": "^1.4.1",
     "serve-me": "^0.8.2"
   },
+  "homepage": "https://github.com/apla/me.apla.cordova.app-preferences",
   "keywords": [
     "preferences",
     "settings",
@@ -44,13 +68,17 @@
     "cordova-windows8",
     "cordova-blackberry10"
   ],
-  "author": "Ivan Baktsheev fixed by Joris Bertomeu for ICSCorp",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/apla/me.apla.cordova.app-preferences/issues"
+  "name": "@icscorp/cordova-plugin-app-preferences",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git"
   },
-  "homepage": "https://github.com/apla/me.apla.cordova.app-preferences",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.99.7",
+  "dependencies": {
+    "cordova-lib": "^9.0.0"
   }
 }
