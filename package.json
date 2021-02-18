@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "Ivan Baktsheev fixed by Joris Bertomeu for ICSCorp"
+    "name": "Ivan Baktsheev, fixed by Xander"
   },
   "bin": {
     "cordova-app-preferences-generator": "bin/build-app-settings.js"
@@ -48,7 +48,7 @@
     "cordova-blackberry10"
   ],
   "license": "Apache-2.0",
-  "name": "@icscorp/cordova-plugin-app-preferences",
+  "name": "cordova-plugin-app-preferences",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git"
@@ -56,7 +56,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.99.8",
+  "version": "0.99.9",
   "dependencies": {
     "cordova-lib": "^9.0.0"
   }
