@@ -1,25 +1,4 @@
 {
-  "_from": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git",
-  "_id": "@icscorp/cordova-plugin-app-preferences@0.99.7",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/@icscorp/cordova-plugin-app-preferences",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences",
-    "rawSpec": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences",
-    "saveSpec": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git",
-    "fetchSpec": "https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_resolved": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences.git#d9cb269d6bfe8a9bdb88c934374f05dfe4a66497",
-  "_spec": "git+https://github.com/jorisbertomeu/me.apla.cordova.app-preferences",
-  "_where": "D:\\Mijn documenten\\Workspace\\Work\\Brasschaat\\app",
   "author": {
     "name": "Ivan Baktsheev fixed by Joris Bertomeu for ICSCorp"
   },
